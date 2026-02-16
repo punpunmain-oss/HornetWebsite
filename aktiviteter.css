@@ -70,20 +70,22 @@
 }
 
 .activities-audience {
-  padding: 5rem 0;
+  padding: 4rem 0;
   background-color: #d1d1d1;
+  display: flex;
+  justify-content: center;
 }
 
 .activities-audience h2 {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 2.5rem;
-  color: #0f0f0f;
+  margin-bottom: 2rem;
+  color: #0F0F0F;
 }
 
 .audience-list {
   list-style: none;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0;
   display: grid;
@@ -91,17 +93,12 @@
 }
 
 .audience-list li {
-  padding: 1rem 1.5rem;
-  background-color: #0f0f0f;
-  color: #fAFAFA;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 14px;
-}
-
-.audience-list li:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(15, 15, 15, 0.45);
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #0F0F0F;
+  font-size: 1.1rem;
+  color: #0F0F0F;
 }
 
 .activities-info {
@@ -260,6 +257,19 @@
 .activities-info ul li {
   margin-top: 1.5rem;
   color: #D1D1D1;
+}
+
+.activity-list ul li {
+  margin-top: 1rem;
+  color: #D1D1D1;
+}
+
+ul li {
+  color: #D1D1D1;
+}
+
+.activity-info p {
+  margin-bottom: 2rem;
 }
 
 @keyframes linkFadeIn {

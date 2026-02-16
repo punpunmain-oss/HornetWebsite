@@ -1,5 +1,5 @@
 .about-hero {
-  background-color: #d1d1d1;
+  background-color: #0f0f0f;
   padding: 6rem 0 4rem;
   text-align: center;
 }
@@ -7,14 +7,14 @@
 .about-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #0f0f0f;
+  color: #fafafa;
 }
 
 .about-hero p {
   font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto;
-  color: #0f0f0f;
+  color: #d1d1d1;
 }
 
 .about-content {
