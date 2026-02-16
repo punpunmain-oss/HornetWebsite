@@ -1,0 +1,270 @@
+.activities-hero {
+  padding: 6rem 0 4rem;
+  background-color: #D1D1D1;
+  text-align: center;
+}
+
+.activities-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0f0f0f;
+}
+
+.activities-hero p {
+  font-size: 1.1rem;
+  color: #0f0f0f;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.activities-list {
+  padding: 5rem 0;
+}
+
+.activities-list h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #fAFAFA ;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.activity-card {
+  padding: 2rem;
+  border-radius: 14px;
+  background-color: #D1D1D1;
+  border: 1px solid #6b6b6b;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.activity-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.activity-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #0f0f0f;
+}
+
+.activity-card p {
+  color: #0f0f0f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.activity-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(209, 209, 209, 0.55);
+}
+
+.activities-audience {
+  padding: 5rem 0;
+  background-color: #d1d1d1;
+}
+
+.activities-audience h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #0f0f0f;
+}
+
+.audience-list {
+  list-style: none;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.audience-list li {
+  padding: 1rem 1.5rem;
+  background-color: #0f0f0f;
+  color: #fAFAFA;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 14px;
+}
+
+.audience-list li:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15, 15, 15, 0.45);
+}
+
+.activities-info {
+  padding: 5rem 0;
+}
+
+.activities-info h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #fAFAFA;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.info-grid div {
+  padding: 2rem;
+  background-color: #D1D1D1;
+  border-radius: 14px;
+  border: 1px solid #6b6b6b;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-grid div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(209, 209, 209, 0.55);
+}
+
+.info-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-grid li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(-8px);
+  animation: linkFadeIn 0.8s ease-out forwards;
+  position: relative;
+}
+
+.info-grid li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #0f0f0f;
+  transition: width 0.3s ease;
+}
+
+.info-grid li a:hover::after {
+  width: 100%;
+}
+
+.info-grid h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0f0f0f;
+}
+
+.info-grid p {
+  font-size: 0.95rem;
+  color: #0f0f0f;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .activities-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .activities-list h2,
+  .activities-audience h2,
+  .activities-info h2,
+  .activities-gallery h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.activity-page {
+  flex: 1;
+  background-color: #d1d1d1;
+  color: #0f0f0f;
+}
+
+.activity-hero {
+  padding: 5rem 0 3rem;
+  text-align: center;
+}
+
+.activity-hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: #0f0f0f;
+}
+
+.activity-hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.activity-content {
+  padding: 3rem 0 5rem;
+  background-color: #0f0f0f;
+}
+
+.activity-info {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+.activity-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  color: #fAFAFA;
+}
+
+.activity-info p {
+  line-height: 1.7;
+  color: #D1D1D1;
+}
+
+.activity-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.activity-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #D1D1D1;
+  color: #D1D1D1;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #D1D1D1;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.activities-info ul li {
+  margin-top: 1.5rem;
+  color: #D1D1D1;
+}
+
+@keyframes linkFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
