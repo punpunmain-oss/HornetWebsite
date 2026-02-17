@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nyheter & Aktuellt – Hörnet</title>
+  <title>Aktivitetsschema – Hörnet</title>
 
   <link rel="stylesheet" href="global.css">
-  <link rel="stylesheet" href="nyheter.css">
+  <link rel="stylesheet" href="aktivitetsschema.css">
 </head>
 <body>
 <div class="page-load">
+
 <header class="site-header">
   <nav class="nav">
     <a href="index.html" class="logo">HÖRNET</a>
     <ul class="nav-links">
-      <li><a href="nyheter.html" class="active">Nyheter</a></li>
+      <li><a href="nyheter.html">Nyheter</a></li>
       <li><a href="om-oss.html">Om oss</a></li>
-      <li><a href="styrelse.html">Styrelse</a></li>
+      <li><a href="styrelse.html">Styrelsen</a></li>
       <li><a href="aktiviteter.html">Aktiviteter</a></li>
       <li><a href="aktivitetsschema.html" class="active">Aktivitetsschema</a></li>
       <li><a href="kontakt.html">Kontakta oss</a></li>
@@ -24,25 +25,30 @@
   </nav>
 </header>
 
-<section class="news-hero">
-  <div class="container">
-    <h1>Nyheter & Aktuellt</h1>
-    <p>
-      Här hittar du uppdateringar, information och vad som händer i föreningen just nu.
-    </p>
-  </div>
-</section>
+<main>
 
-<section class="news-section">
-  <div class="container news-grid" id="newsGrid">
-  </div>
-</section>
+  <section class="schema-hero">
+    <div class="container">
+      <h1 id="week-title">v.xx schema</h1>
+      <p id="week-dates"></p>
+    </div>
+  </section>
+
+  <section class="schema-section">
+    <div class="container">
+      <div id="schema-grid" class="schema-grid">
+      </div>
+    </div>
+  </section>
+
+</main>
 
 <footer>
   © 2026 Hörnet
 </footer>
 
-<script src="nyheter.js"></script>
 </div>
+
+<script src="aktivitetsschema.js"></script>
 </body>
 </html>

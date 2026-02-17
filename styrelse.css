@@ -1,7 +1,7 @@
 .board-hero {
   padding: 6rem 0 3rem;
   text-align: center;
-  background-color: #D1D1D1;
+  background-color: #fafafa;
 }
 
 .board-hero h1 {
@@ -12,6 +12,7 @@
 
 .board-hero p {
   color: #0f0f0f;
+  font-size: 1.2rem;
 }
 
 .board-members .grid {

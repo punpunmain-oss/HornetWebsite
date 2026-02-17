@@ -1,6 +1,6 @@
 .activities-hero {
   padding: 6rem 0 4rem;
-  background-color: #D1D1D1;
+  background-color: #fafafa;
   text-align: center;
 }
 
@@ -205,6 +205,16 @@
   line-height: 1.7;
   color: #D1D1D1;
   margin-bottom: 2rem;
+}
+
+.activity-info a {
+  color: #D1D1D1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.activity-info a:hover {
+  text-decoration: underline;
 }
 
 .activity-list {

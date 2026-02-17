@@ -1,0 +1,108 @@
+.schema-hero {
+  padding: 5rem 0 3rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.schema-hero h1 {
+  font-size: 2.6rem;
+  color: #0f0f0f;
+  margin-bottom: 0.5rem;
+}
+
+.schema-hero p {
+  font-size: 1.5rem;
+  color: #0f0f0f;
+  opacity: 0.8;
+}
+
+.schema-section {
+  padding: 4rem 0;
+}
+
+.schema-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.schema-grid > .day-card:last-child {
+  grid-column: 2 / 3;
+}
+
+.day-card {
+  background-color: #d1d1d1;
+  border-radius: 14px;
+  padding: 1.8rem;
+  border: 1px solid #6b6b6b;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.day-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(209, 209, 209, 0.55);
+}
+
+.day-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #0f0f0f;
+}
+
+.activity-item {
+  margin-bottom: 1rem;
+}
+
+.activity-item:last-child {
+  margin-bottom: 0;
+}
+
+.activity-name {
+  font-weight: 600;
+  color: #0f0f0f;
+}
+
+.activity-time {
+  font-size: 0.9rem;
+  color: #0f0f0f;
+  opacity: 0.8;
+}
+
+.no-activity {
+  font-size: 0.95rem;
+  color: #0f0f0f;
+  opacity: 0.7;
+}
+
+.schema-note {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+
+  color: #fafafa;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+.contact-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #d1d1d1;
+  transition: width 0.3s ease;
+}
+
+.contact-link:hover::after {
+  width: 100%;
+}
+

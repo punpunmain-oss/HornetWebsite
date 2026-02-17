@@ -1,0 +1,42 @@
+{
+  "week": "v.57 schema",
+  "dates": "1 dec – 7 dec",
+  "days": [
+    {
+      "day": "Måndag",
+      "activities": [
+        { "name": "Läxhjälp", "time": "16:00 – 18:00" }
+      ]
+    },
+    {
+      "day": "Tisdag",
+      "activities": [
+        { "name": "Teorihjälp (körkort)", "time": "17:00 – 19:00" }
+      ]
+    },
+    {
+      "day": "Onsdag",
+      "activities": []
+    },
+    {
+      "day": "Torsdag",
+      "activities": [
+        { "name": "Myndighets- & samhällsstöd", "time": "15:00 – 17:00" }
+      ]
+    },
+    {
+      "day": "Fredag",
+      "activities": [
+        { "name": "Temakväll – Spel", "time": "18:00 – 21:00" }
+      ]
+    },
+    {
+      "day": "Lördag",
+      "activities": []
+    },
+    {
+      "day": "Söndag",
+      "activities": []
+    }
+  ]
+}
