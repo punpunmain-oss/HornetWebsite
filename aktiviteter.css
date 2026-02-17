@@ -28,6 +28,13 @@
   color: #fAFAFA ;
 }
 
+.subtitle p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #d1d1d1;
+  margin-bottom: 3rem;
+}
+
 .activities-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -179,12 +186,12 @@
 }
 
 .activity-content {
-  padding: 3rem 0 5rem;
+  padding: 4rem 0 6rem;
   background-color: #0f0f0f;
 }
 
 .activity-info {
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto 3rem;
 }
 
@@ -197,17 +204,31 @@
 .activity-info p {
   line-height: 1.7;
   color: #D1D1D1;
+  margin-bottom: 2rem;
 }
 
 .activity-list {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 1.5rem;
 }
 
 .activity-list li {
   padding: 0.6rem 0;
   border-bottom: 1px solid #D1D1D1;
   color: #D1D1D1;
+}
+
+.activity-list a {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.activity-list a:hover {
+  color: #d1d1d1;
+  text-decoration: underline;
 }
 
 .back-link {
@@ -227,17 +248,8 @@
   color: #D1D1D1;
 }
 
-.activity-list ul li {
-  margin-top: 1rem;
+.activity-content ul li {
   color: #D1D1D1;
-}
-
-ul li {
-  color: #D1D1D1;
-}
-
-.activity-info p {
-  margin-bottom: 2rem;
 }
 
 @keyframes linkFadeIn {
